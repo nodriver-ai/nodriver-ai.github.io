@@ -1,0 +1,95 @@
+---
+title: "Home"
+layout: default
+pagination:
+    enabled: true
+---
+
+
+<div class="container">
+    
+{% if page.url == "/" %}
+    
+    
+    
+<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
+<div class="row remove-site-content-margin">
+    
+    <!-- latest post -->
+    {% assign latest_post = site.posts[0] %}
+    <div class="col-md-6">
+    <div class="card border-0 mb-4 box-shadow">   
+    <a href="{{site.baseurl}}{{latest_post.url}}">
+    <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+    </a>
+    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+    <h2 class="h4 font-weight-bold">
+    <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
+    </h2>
+    <p class="excerpt">
+        {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 130  }}
+    </p>
+    <div>
+        <small class="d-block text-muted">
+            In <span class="catlist">
+                {% for category in latest_post.categories %}
+                <a class="text-uppercase font-weight-bold smoothscroll text-tag" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                {% endfor %}
+                </span>                   
+        </small>
+        <small class="text-muted">
+            {{ latest_post.date | date: '%b %d, %Y' }}
+        </small>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Mailchimp Subscribe Form -->
+    {% if site.mailchimp-list %}
+    <div class="col-md-6">
+        <div class="border p-5 bg-primary text-white">
+            <div class="row justify-content-center">
+                <h5 class="font-weight-bold">Iscriviti alla nostra Newsletter</h5>
+                <p class="text-center">riceverai le ultime notizie direttamente nella tua email.</p>
+            </div>
+            <div class="row pt-5 pb-3 bg-primary text-white">
+                    <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate w-100" target="_blank" novalidate>
+                    <div class="mc-field-group">
+                    
+                        <input type="email" placeholder="Indirizzo e-mail" name="EMAIL" class="required email form-control w-100" id="mce-EMAIL" autocomplete="on" required>
+                    
+                    
+                        <button type="submit" value="Subscribe" name="subscribe" class="heart btn btn-salmon mt-2 text-white">Invia</button>
+                    
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-gray position-relative">
+        <div class="pr-0 h-100 tofront">
+            <div class="row justify-content-between">
+                <div class="col-md-6 p-0 d-block d-sm-none">
+                    <img src="{{site.baseurl}}/assets/images/mobile.png" class="img-fluid img-product">
+                </div>
+                <div class="col-md-6 pt-5 pb-5 pr-lg-4 pl-lg-4 align-self-center">
+                    <h2 class="mb-3 text-title">Inizia ad usare irreo</h2>
+                    <p class="mb-3 lead">
+                    Oltre a scrivere articoli sull’agricoltura di precisione, abbiamo sviluppato la prima piattaforma web che consente agli agricoltori di pianificare l'irrigazione senza dover installare nessun sensore.
+                    </p>
+                    <a href="https://irreo.nodriver.ai" class="btn btn-irreo" target="_black">Scopri di più</a>
+                </div>
+                <div class="col-md-6 p-0 d-none d-sm-block" style="background: url({{site.baseurl}}/assets/images/mobile.png) no-repeat center center; -webkit-background-size: 80%; -moz-background-size: 80%; -o-background-size: 80%; background-size: 80%;">	
+                </div>
+            </div>
+        </div>
+    </div> 
+
+{% endif %} <!--endif page url is / -->
+
+
+</div>

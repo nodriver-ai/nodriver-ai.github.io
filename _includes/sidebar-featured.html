@@ -1,0 +1,40 @@
+{% assign psize = ite.tags.featured | size %}
+<div class="sticky-top sticky-top-offset">
+    {% if psize > 0 %}
+    <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>  
+    <ol class="list-featured">				
+        {% for post in site.tags.featured %}                
+            <li class="mb-4">
+            <span>
+                <h6 class="font-weight-bold">
+                    <a href="{{site.baseurl}}{{ post.url }}" class="text-dark">{{ post.title }}</a>
+                </h6>
+                <span class="d-block text-muted">
+                    In <span class="catlist">
+                    {% for category in post.categories %}
+                    <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                    {% endfor %}
+                    </span>
+                </span>
+            </span>
+            </li>                
+        {% endfor %}   
+    </ol>
+    {% endif %}   
+    
+    {% if site.mailchimp-list %}
+    <div style="padding: 15px">	
+        <h5 class="font-weight-bold">Non perdere gli ultimi articoli. Iscriviti alla nostra newsletter!</h5>
+        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate w-100" target="_blank" novalidate>
+            <div class="mc-field-group">
+            
+                <input type="email" placeholder="Indirizzo e-mail" name="EMAIL" class="required email form-control w-100" id="mce-EMAIL" autocomplete="on" required>
+            
+            
+                <button type="submit" value="Subscribe" name="subscribe" class="heart btn btn-irreo btn-block w-100 mt-2">Iscriviti</button>
+            
+            </div>
+        </form>
+    </div>
+    {% endif %}
+</div> 
