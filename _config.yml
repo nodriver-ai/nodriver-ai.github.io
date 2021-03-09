@@ -5,13 +5,19 @@ collections:
   posts:
     title: Posts
     output: true
-    pppp: prova
   uploads:
     title: Uploads
     output: true
 defaults:
 - scope:
     path: _posts
+    type: posts
+  values:
+    layout: post
+    author: andrea
+    avatar: "/assets/images/avatar_andrea.jpg"
+- scope:
+    path: _drafts
     type: posts
   values:
     layout: post
