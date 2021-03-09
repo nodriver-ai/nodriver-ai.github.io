@@ -703,7 +703,7 @@ article {
 	line-height:1.86;
 }
 .article-headline {
-    font-size: 3.2rem;
+    /*font-size: 3.2rem;*/
     font-weight: 500;
     line-height: 1.15;
     color: #444444;
