@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    pppp: prova
   uploads:
     title: Uploads
     output: true
