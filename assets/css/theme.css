@@ -1,9 +1,6 @@
 /*!
  * Mundana Jekyll Theme (https://www.wowthemes.net/mundana-jekyll-theme/)
  */
-.page-home {
-	margin-top: 55px;
-}
 .card a:hover {
 	color: white !important;
 }
@@ -54,7 +51,7 @@ body {
 	color: #444;
 }
 .site-content {
-	/*margin-top:55px;*/
+	margin-top:55px;
 	min-height:400px;
 }
 .remove-site-content-margin {
