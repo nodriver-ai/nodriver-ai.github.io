@@ -93,7 +93,7 @@ layout: default
             {% if site.mailchimp-list %}
 			<div class="border p-5 bg-lightblue">
 				<div class="row justify-content-between">
-					<div class="col-md-6 mb-2 mb-md-0">
+					<div class="col-md-6 mb-2 mb-md-0 p-0">
 						<h5 class="font-weight-bold">Iscriviti alla nostra Newsletter</h5>
 						riceverai le ultime notizie direttamente nella tua email.</div>
 					<div class="col-md-6">
@@ -120,11 +120,17 @@ layout: default
 			<div class="row mt-5">
 				<div class="col-md-2 align-self-center">
 						{% if author.avatar %}
-					<img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="90"/>
+					<img class="rounded-circle mx-auto d-block" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="90"/>
 					{% endif %} 
 				</div>
-				<div class="col-md-10">		
-					<h5 class="font-weight-bold">Scritto da {{ author.name }} {% if author.linkedin %}<span><a target="_blank" href="{{ author.linkedin }}" class="btn btn-outline-success btn-sm btn-round ml-2">Segui su Linkedin</a></span>{% endif %}</h5>
+				<div class="col-md-10 text-center text-sm-left">		
+					<h5 class="font-weight-bold">Scritto da {{ author.name }} 
+						{% if author.linkedin %}
+						<span>
+							<a target="_blank" href="{{ author.linkedin }}" class="btn btn-outline-success btn-sm btn-round ml-2">Segui su Linkedin</a>
+						</span>
+						{% endif %}
+					</h5>
 					{{ author.bio }}					
 				</div>
 			</div>				
