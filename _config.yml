@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    author: andrea
   uploads:
     title: Uploads
     output: true
