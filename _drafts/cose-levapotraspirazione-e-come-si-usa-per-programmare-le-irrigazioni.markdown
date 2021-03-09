@@ -9,10 +9,10 @@ subtitle: Le informazioni sull'evapotraspirazione possono essere usate dagli agr
 layout: post
 ---
 
+L'evapotraspirazione (ET) rappresenta il consumo d'acqua di un terreno dovuto alla combinazione di due processi: l'acqua viene persa da un lato dalla superficie del suolo per evaporazione e dall'altro lato dalla coltura per traspirazione. I valori di ET sono tipicamente misurati in millimetri al giorno (mm/giorno) e sono più alti nei mesi estivi e relativamente più bassi in primavera ed autunno. Inoltre i principali fattori che influiscono sul suo valore sono la luce del sole, il vento, l'umidità e la temperatura.
 
-L'evapotraspirazione (ET) è la combinazione di due processi in cui l'acqua viene persa da un lato dalla superficie del suolo per evaporazione e dall'altro lato dalla coltura per traspirazione. I principali fattori che influiscono sulla ET sono la luce del sole, il vento, l'umidità e la temperatura.
-
-<p align="center"> 
+<p align="center">
 <img src="/uploads/Schermata%202021-03-09%20alle%2011.57.16.png">
 </p>
 
+# Perché dovrei voler usare l'ET per programmare le irrigazioni?
