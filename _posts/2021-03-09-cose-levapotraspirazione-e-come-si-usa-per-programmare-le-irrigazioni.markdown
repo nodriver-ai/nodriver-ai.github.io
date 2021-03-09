@@ -10,7 +10,7 @@ subtitle: L'evapotraspirazione fornisce una stima affidabile dei requisiti idric
 layout: post
 ---
 
-L'evapotraspirazione è una stima del consumo di acqua sia delle piante che dal suolo. I principali fattori che influiscono sull'evapotraspirazione sono la luce del sole, il vento, l'umidità e la temperatura.
+L'evapotraspirazione (ET) è una stima del consumo di acqua sia delle piante che dal suolo. I principali fattori che influiscono sulla ET sono la luce del sole, il vento, l'umidità e la temperatura.
 
 ![Schermata 2021-03-09 alle 11.57.16.png](/uploads/Schermata%202021-03-09%20alle%2011.57.16.png)
 
