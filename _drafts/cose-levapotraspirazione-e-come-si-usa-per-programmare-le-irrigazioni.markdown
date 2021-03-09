@@ -9,7 +9,8 @@ subtitle: Le informazioni sull'evapotraspirazione possono essere usate dagli agr
 layout: post
 ---
 
-L'evapotraspirazione (ET) è la combinazione di due processi separati in cui l'acqua viene persa da un lato dalla superficie del suolo per evaporazione e dall'altro lato dalla coltura per traspirazione. I principali fattori che influiscono sulla ET sono la luce del sole, il vento, l'umidità e la temperatura.
+
+L'evapotraspirazione (ET) è la combinazione di due processi in cui l'acqua viene persa da un lato dalla superficie del suolo per evaporazione e dall'altro lato dalla coltura per traspirazione. I principali fattori che influiscono sulla ET sono la luce del sole, il vento, l'umidità e la temperatura.
 
 <p align="center"> 
 <img src="/uploads/Schermata%202021-03-09%20alle%2011.57.16.png">
