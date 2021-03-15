@@ -26,3 +26,4 @@ Senza informazioni oggettive può essere difficile stabilire il momento migliore
 Per far corrispondere l'irrigazione alle esigenze delle colture in crescita vegetativa, l'irrigazioni devono essere programmate in relazione alla quantità di acqua nel terreno che è prontamente disponibile per le piante (nota anche come "Readily Available Water" o "RAW").
 
 La RAW è la componente dell'umidità del suolo che può essere prontamente estratta dalle piante prima che soffrano di stress da umidità e di tassi di crescita inferiori.
+Il concetto di base è che man mano che le piante estraggono acqua, il contenuto idrico del suolo diminuisce e raggiunge un valore di soglia oltre il quale l'acqua diventa più fortemente legata al suolo e più difficile da estrarre. Quando l'estrazione cumulativa di acqua supera il valore RAW, l'acqua del suolo non può più essere estratta abbastanza rapidamente per soddisfare le esigenze idriche delle colture in crescita vegetativa.
