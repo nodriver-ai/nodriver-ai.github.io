@@ -19,11 +19,6 @@ L'evapotraspirazione (ET) rappresenta il consumo d'acqua di un terreno dovuto al
 Le informazioni sull'ET permettono agli agricoltori di adattare meglio le irrigazioni alle esigenze delle colture in crescita vegetativa, aiutando così ad ottenere rese maggiori e a migliorare l'efficienza irrigua. Monitorare giornalmente i valori di ET aiuta ad eliminare le incertezze nell'irrigazione. Un piccolo, ma regolare miglioramento nella programmazione dell'irrigazione può aumentare significativamente la produzione e la qualità complessiva delle colture.
 Un altro vantaggio dell'uso dell'ET è che i valori sono rilevanti per un intero appezzamento e non in un singolo punto, come nel caso dei sensori di umidità del suolo. Questo permette una programmazione accurata dell'irrigazione considerando la variabilità dei tipi di suolo, la capacità di ritenzione idrica del suolo, i tassi di estrazione dell'acqua e l'uniformità dell'irrigazione.
 
-<figure class="image">
-  <img src="/uploads/Schermata%202021-03-09%20alle%2011.57.16.png" alt="prova">
-  <figcaption>prova</figcaption>
-</figure>
-
 Senza informazioni oggettive può essere difficile stabilire il momento migliore per programmare le irrigazioni. Per gli agricoltori è particolare importante fare attenzione ai dati di ET sopratutto nel periodo estivo, quando le richieste d'acqua delle colture sono elevate e i tassi di crescita sono più sensibili alle irrigazioni ritardate.
 
 ### Quali sono i principi di base dell'uso della ET per la programmazione dell'irrigazione?
