@@ -6,6 +6,7 @@ categories:
 subtitle: Le informazioni sull'evapotraspirazione possono essere usate dagli agricoltori
   per programmare più accuratamente le irrigazioni con l'obiettivo di raggiungere
   le massime rese e migliorare l'efficienza idrica.
+image: "/uploads/Schermata%202021-03-16%20alle%2012.56.30.png"
 layout: post
 ---
 
