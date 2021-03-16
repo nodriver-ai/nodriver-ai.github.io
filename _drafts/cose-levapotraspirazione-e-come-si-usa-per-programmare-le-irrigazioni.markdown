@@ -25,7 +25,6 @@ Un altro vantaggio dell'uso dell'ET è che i valori sono rilevanti per un intero
 <p align="center">
 <img src="/uploads/gif2.gif">
 </p>
-[citare irreo e far vedere mappa evapotranspirazione]
 
 Senza informazioni oggettive può essere difficile stabilire il momento migliore per programmare le irrigazioni. Per gli agricoltori è particolare importante fare attenzione ai dati di ET sopratutto nel periodo estivo, quando le richieste d'acqua delle colture sono elevate e i tassi di crescita sono più sensibili alle irrigazioni ritardate.
 
