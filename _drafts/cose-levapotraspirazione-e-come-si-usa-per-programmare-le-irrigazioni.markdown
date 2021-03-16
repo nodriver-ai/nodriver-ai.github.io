@@ -37,6 +37,9 @@ Il concetto di base è che man mano che le piante estraggono acqua (il cui valor
 
 Quando l'estrazione cumulativa di acqua supera il valore RAW, l'acqua del suolo non può più essere estratta abbastanza rapidamente per soddisfare le esigenze idriche delle colture in crescita vegetativa. Inoltre c'è il rischio di una "siccità verde" se l'intervallo di irrigazione è "allungato" e l'estrazione cumulativa di acqua supera il valore stimato di RAW. Se questo accade, le piante possono apparire sane, ma la crescita è compromessa. Nel caso estremo senza irrigazione o pioggia, alla fine si raggiunge un punto in cui l'assorbimento dell'acqua è zero e le piante appassiscono e muoiono definitivamente.
 In genere la RAW varia a seconda della coltura e del tipo di suolo. Ad esempio per il mais ci saranno in genere fino a 60-70 mm di RAW, mentre per l'erba medica la RAW tende ad essere nell'intervallo da 70mm a 100mm.
+
+I metodi tradizionali per il calcolo della RAW su un particolare terreno richiedono l'uso di sonde tensiometriche e di diversi calcoli manuali da effettuare.  
+
 [immagine della fao sulla raw]
 
 [irreo stima la RAW]
