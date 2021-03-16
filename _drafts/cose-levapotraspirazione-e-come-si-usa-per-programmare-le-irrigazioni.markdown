@@ -21,7 +21,7 @@ Le informazioni sull'ET permettono agli agricoltori di adattare meglio le irriga
 Un altro vantaggio dell'uso dell'ET è che i valori sono rilevanti per un intero appezzamento e non in un singolo punto, come nel caso dei sensori di umidità del suolo. Questo permette una programmazione accurata dell'irrigazione considerando la variabilità dei tipi di suolo, la capacità di ritenzione idrica del suolo, i tassi di estrazione dell'acqua e l'uniformità dell'irrigazione.
 
 <p align="center">
-<img src="/uploads/gif1.gif">
+<img src="/uploads/gif2.gif">
 </p>
 [citare irreo e far vedere mappa evapotranspirazione]
 
