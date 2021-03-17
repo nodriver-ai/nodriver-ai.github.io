@@ -61,6 +61,5 @@ In questa tabella è rappresentato un esempio di come funziona il processo di es
 In questo grafico sono rappresentati visualmente i dati della tabella riportata sopra, e si può notare come la RAW si riduca progressivamente ogni giorno per effetto della ET e si ricarica con le precipitazioni.
 
 ### Da dove posso iniziare?
-Il vero problema per effettuare una programmazione dell'irrigazione ottimale come abbiamo visto sopra è reperire e monitorare le diverse variabili necessarie.
-
-Utilizzando [Irreo](https://irreo.nodriver.ai) potrai monitorare i valori di ET, le precipitazioni e la RAW senza  senza aver bisogno di nessun sensore da installare. Inoltre le informazioni sono utilizzate per consigliarti ogni giorno il momento ottimale per la prossima irrigazione e l'esatta quantità di acqua necessaria in maniera totalmente automatica tramite un'intuitiva applicazione web.
+Il vero problema per effettuare una programmazione dell'irrigazione ottimale, come abbiamo descritto sopra, è reperire e monitorare le diverse variabili necessarie.  
+Utilizzando [Irreo](https://irreo.nodriver.ai) potrai monitorare i valori di ET, le precipitazioni e la RAW senza  senza aver bisogno di **nessun sensore da installare**. Inoltre le informazioni sono utilizzate per consigliarti ogni giorno il **momento ottimale per la prossima irrigazione e l'esatta quantità di acqua necessaria** in maniera totalmente automatica.
