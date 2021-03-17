@@ -52,10 +52,8 @@ Oltre all'assorbimento dell'acqua da parte delle piante, chiaramente anche le pr
 
 <p align="center">
 <img src="/uploads/Schermata%202021-03-17%20alle%2015.02.15.png">
-<span style="display: block; text-align:center;">
-**Tabella 1** -Esaurimento dell'acqua prontamente disponibile (RAW). La tabella mostra comel'ET giornaliera e le precipitazioni sono usate per stimare la RAW giornaliera e determinare il momento della prossima irrigazione. Per aiutare a ottimizzare la produttività irrigua, l'irrigazione successiva è programmata quando la RAW è esaurita o vicina allo zero. Si stima che il terreno in questo caso possa contenere fino a 40 mm di RAW e che il terreno sia liberamente drenato alla fine del "Giorno 0".
-</span>
 </p>
+**Tabella 1** - Esaurimento dell'acqua prontamente disponibile (RAW). La tabella mostra comel'ET giornaliera e le precipitazioni sono usate per stimare la RAW giornaliera e determinare il momento della prossima irrigazione. Per aiutare a ottimizzare la produttività irrigua, l'irrigazione successiva è programmata quando la RAW è esaurita o vicina allo zero. Si stima che il terreno in questo caso possa contenere fino a 40 mm di RAW e che il terreno sia liberamente drenato alla fine del "Giorno 0".
 
 ![grafico](/uploads/graph.png)
 
