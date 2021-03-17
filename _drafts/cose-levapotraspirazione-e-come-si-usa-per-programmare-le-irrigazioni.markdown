@@ -55,6 +55,9 @@ Il momento ottimale per effettuare l'irrigazione è determinato sottraendo i val
 </p>
 In questa tabella è rappresentato un esempio di come funziona il processo di esaurimento dell'acqua prontamente disponibile (RAW) all'interno di un terreno. La tabella mostra come la ET giornaliera e le precipitazioni sono usate per stimare ogni giorno la RAW e determinare il momento della prossima irrigazione. Per ottimizzare l'efficienza irrigua, l'irrigazione successiva è programmata quando la RAW è esaurita o vicina allo zero. Si stima che il terreno in questo caso possa contenere fino a 40 mm di RAW e che il terreno sia liberamente drenato alla fine del "Giorno 0".
 
-![grafico](/uploads/graph.png)
+<p align="center">
+<img style="margin-bottom: 0;" src="/uploads/graph.png">
+</p>
+In questo grafico sono rappresenta visualmente i dati della tabella riportata sopra, e si può notare come la RAW si riduca progressivamente ogni giorno per effetto della ET e si ricarica con le precipitazioni.
 
 [da dove posso iniziare -- Irreo]
