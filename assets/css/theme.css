@@ -27,6 +27,11 @@
 .img-product {
 	padding: 36px 80px;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+	.img-product {
+		padding: 20px 46px;
+	}
+}
 .btn-irreo {
 	background-color: #4da49d;
 	border-color: #4da49d;
@@ -51,8 +56,8 @@ body {
 	color: #444;
 }
 .site-content {
-	margin-top:55px;
-	min-height:400px;
+	margin-top: 17px;
+    min-height: 400px;
 }
 .remove-site-content-margin {
 	margin-top:-30px;
@@ -234,6 +239,8 @@ a.text-dark:hover {
 .navbar {
 	transition:top 0.2s ease-in-out;
 	font-weight:400;
+	top: 0;
+    position: absolute;
 }
 .navbar .highlight .nav-link {
 	color:#03a87c !important;
