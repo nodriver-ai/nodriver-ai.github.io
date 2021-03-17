@@ -40,7 +40,7 @@ In genere la RAW varia a seconda della coltura e del tipo di suolo. Ad esempio p
 
 I metodi tradizionali per il calcolo della RAW su un particolare terreno richiedono l'uso di sonde tensiometriche e di diversi calcoli manuali da effettuare, il risultato è un processo complicato e che richiede molto tempo.
 Gli agricoltori da oggi possono usare **[Irreo](https://irreo.nodriver.ai)** per conoscere esattamente il valore della RAW su un particolare terreno, senza aver bisogno di nessun sensore da installare e in maniera completamente automatica.  
-Questo è possibile grazie alla nostra tecnologia, che combinando diversi dati satellitari e algoritmi di "Machine Learning", è in grado di stimare la struttura del suolo sotto la copertura fogliare, monitorando il processo di infiltrazione dell'acqua. Questo permette ai nostri utenti di analizzare diverse variabili relative all'umidità del suolo, come la capacità di campo, il punto di appassimento permanente, il contenuto di acqua prontamente disponibile e l'acqua totale disponibile.
+Questo è possibile grazie alla nostra tecnologia, che combinando diversi dati satellitari e algoritmi di ["Machine Learning"](https://it.wikipedia.org/wiki/Apprendimento_automatico), è in grado di stimare la struttura del suolo sotto la copertura fogliare, monitorando il processo di infiltrazione dell'acqua. Questo permette ai nostri utenti di analizzare diverse variabili relative all'umidità del suolo, come la capacità di campo, il punto di appassimento permanente, il contenuto di acqua prontamente disponibile e l'acqua totale disponibile.
   
 
 [immagine della fao sulla raw]
