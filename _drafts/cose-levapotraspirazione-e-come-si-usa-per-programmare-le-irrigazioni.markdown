@@ -51,7 +51,7 @@ Il momento ottimale per effettuare l'irrigazione è determinato sottraendo i val
  Oltre all'assorbimento dell'acqua da parte delle piante, chiaramente anche le precipitazioni influenzano i valori della RAW, dato che provocano un'aumento del contenuto di acqua nel suolo. Inoltre le precipitazioni che non contribuiscono alla riserva di umidità disponibile delle colture (precipitazioni "inefficaci") non dovrebbero essere considerate. Per esempio, la quantità di precipitazioni che viene persa a causa del deflusso superficiale o che tramite infiltrazione supera la zona delle radici deve essere ignorata.
 
 <p align="center">
-<img style="margin-bottom: 0;" src="/uploads/Schermata%202021-03-17%20alle%2015.02.15.png">
+<img style="margin-bottom: 0;" src="/uploads/Schermata%202021-03-17%20alle%2017.23.55.png">
 </p>
 In questa tabella è rappresentato un esempio di come funziona il processo di esaurimento dell'acqua prontamente disponibile (RAW) all'interno di un terreno. La tabella mostra come la ET giornaliera e le precipitazioni sono usate per stimare ogni giorno la RAW e determinare il momento della prossima irrigazione. Per ottimizzare l'efficienza irrigua, l'irrigazione successiva è programmata quando la RAW è esaurita o vicina allo zero. Si stima che il terreno in questo caso possa contenere fino a 40 mm di RAW e che il terreno sia liberamente drenato alla fine del "Giorno 0".
 
