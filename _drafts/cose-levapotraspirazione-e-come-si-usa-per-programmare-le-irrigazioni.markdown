@@ -52,6 +52,6 @@ Oltre all'assorbimento dell'acqua da parte delle piante, chiaramente anche le pr
 
 ![tabella](/uploads/Schermata%202021-03-17%20alle%2015.02.15.png)
 
-[Tabella di esempio]
+![grafico](/uploads/graph.png)
 
 [da dove posso iniziare -- Irreo]
