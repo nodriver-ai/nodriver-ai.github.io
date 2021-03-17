@@ -50,6 +50,8 @@ Questo è possibile grazie alla nostra tecnologia, che combinando diversi dati s
 Il momento ottimale per effettuare l'irrigazione è determinato sottraendo i valori giornalieri di ET dal valore massimo stimato della RAW (per esempio, 40 mm), fino a quando il valore diventa prossimo allo zero. Quando il valore della RAW  si trova vicino allo zero, è il momento di irrigare di nuovo. 
 Oltre all'assorbimento dell'acqua da parte delle piante, chiaramente anche le precipitazioni influenzano i valori della RAW, dato che provocano un'aumento del contenuto di acqua nel suolo. Inoltre le precipitazioni che non contribuiscono alla riserva di umidità disponibile delle colture (precipitazioni "inefficaci") non dovrebbero essere considerate. Per esempio, la quantità di precipitazioni che viene persa a causa del deflusso superficiale o che tramite infiltrazione supera la zona delle radici deve essere ignorata.
 
+![tabella](/uploads/Schermata%202021-03-17%20alle%2015.02.15.png)
+
 [Tabella di esempio]
 
 [da dove posso iniziare -- Irreo]
