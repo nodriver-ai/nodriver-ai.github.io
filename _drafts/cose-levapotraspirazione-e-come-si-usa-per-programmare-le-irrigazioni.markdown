@@ -60,4 +60,5 @@ In questa tabella è rappresentato un esempio di come funziona il processo di es
 </p>
 In questo grafico sono rappresentati visualmente i dati della tabella riportata sopra, e si può notare come la RAW si riduca progressivamente ogni giorno per effetto della ET e si ricarica con le precipitazioni.
 
-[da dove posso iniziare -- Irreo]
+### Da dove posso iniziare?
+Utilizzando [Irreo](https://irreo.nodriver.ai) riceverai ogni giorno informazioni dettagliate sulle diverse variabili che influiscono sull'irrigazione. Irreo monitora giornalmente i valori di ET, diversi parametri meteorologici (temperatura dell'aria e del suolo, l'umidità e le precipitazioni), il livello di clorofilla e di vegetazione, lo stress idrico e l'indice dell'area fogliare delle vostre colture. Inoltre, attraverso i nostri algoritmi, siamo in grado di stimare la struttura del suolo, modellando il processo di infiltrazione dell'acqua. Tutte queste informazioni sono usate per stimare ogni giorno la RAW e consigliare all'agricoltore il momento ottimale per la prossima irrigazione e la quantità di acqua necessaria alla coltura.
