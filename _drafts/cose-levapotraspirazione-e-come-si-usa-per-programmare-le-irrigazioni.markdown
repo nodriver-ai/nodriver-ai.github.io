@@ -39,13 +39,8 @@ Quando l'estrazione cumulativa di acqua supera il valore RAW, l'acqua del suolo 
 In genere la RAW varia a seconda della coltura e del tipo di suolo. Ad esempio per il mais ci saranno in genere fino a 60-70 mm di RAW, mentre per l'erba medica la RAW tende ad essere nell'intervallo da 70mm a 100mm.
 
 I metodi tradizionali per il calcolo della RAW su un particolare terreno richiedono l'uso di sonde tensiometriche e di diversi calcoli manuali da effettuare, il risultato è un processo complicato e che richiede molto tempo.
-Gli agricoltori da oggi possono usare **[Irreo](https://irreo.nodriver.ai)** per conoscere esattamente il valore della RAW su un particolare terreno, senza aver bisogno di nessun sensore da installare e in maniera completamente automatica.  
-Questo è possibile grazie alla nostra tecnologia, che combinando diversi dati satellitari e algoritmi di ["Machine Learning"](https://it.wikipedia.org/wiki/Apprendimento_automatico), è in grado di stimare la struttura del suolo sotto la copertura fogliare, monitorando il processo di infiltrazione dell'acqua. Questo permette ai nostri utenti di analizzare diverse variabili relative all'umidità del suolo, come la capacità di campo, il punto di appassimento permanente, il contenuto di acqua prontamente disponibile e l'acqua totale disponibile.
-  
-
-[immagine della fao sulla raw]
-
-[irreo stima la RAW]
+Gli agricoltori da oggi possono usare [Irreo](https://irreo.nodriver.ai) per conoscere esattamente il valore della RAW su un particolare terreno, senza aver bisogno di **nessun sensore da installare** e in maniera **completamente automatica**.  
+Questo è possibile grazie alla nostra tecnologia, che combinando diversi dati satellitari ed algoritmi di ["Machine Learning"](https://it.wikipedia.org/wiki/Apprendimento_automatico), è in grado di stimare la struttura del suolo sotto la copertura fogliare, monitorando il processo di infiltrazione dell'acqua. Questo permette ai nostri utenti di analizzare diverse variabili relative all'umidità del suolo, come **la capacità di campo, il punto di appassimento permanente, il contenuto di acqua prontamente disponibile e l'acqua totale disponibile**.
 
 ### Come posso usare i valori di ET per programmare le irrigazioni?
 Il momento ottimale per effettuare l'irrigazione è determinato sottraendo i valori giornalieri di ET dal valore massimo stimato della RAW (per esempio, 40 mm), fino a quando il valore diventa prossimo allo zero. Quando il valore della RAW  si trova vicino allo zero, è il momento di irrigare di nuovo. 
