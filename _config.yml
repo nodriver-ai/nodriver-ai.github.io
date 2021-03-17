@@ -31,7 +31,7 @@ name: Irreo Blog
 description: Irreo Blog
 logo: assets/images/logo.png
 favicon: assets/images/favicon.ico
-baseurl: ''
+baseurl: 
 email: info@nodriver.ai
 mailchimp-list: https://nodriver.us1.list-manage.com/subscribe/post?u=847b32553f0cca6281a7a8570&amp;id=03f062b7ec
 facebook: https://www.facebook.com/irreo.nodriver
@@ -44,6 +44,7 @@ plugins:
 - jekyll-sitemap
 - jekyll-paginate
 - jekyll-seo-tag
+- jemoji
 authors:
   andrea:
     name: Andrea
