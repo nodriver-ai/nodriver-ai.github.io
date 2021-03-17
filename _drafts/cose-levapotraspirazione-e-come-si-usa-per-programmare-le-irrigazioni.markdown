@@ -58,6 +58,6 @@ In questa tabella è rappresentato un esempio di come funziona il processo di es
 <p align="center">
 <img style="margin-bottom: 0;" src="/uploads/graph.png">
 </p>
-In questo grafico sono rappresenta visualmente i dati della tabella riportata sopra, e si può notare come la RAW si riduca progressivamente ogni giorno per effetto della ET e si ricarica con le precipitazioni.
+In questo grafico sono rappresentati visualmente i dati della tabella riportata sopra, e si può notare come la RAW si riduca progressivamente ogni giorno per effetto della ET e si ricarica con le precipitazioni.
 
 [da dove posso iniziare -- Irreo]
