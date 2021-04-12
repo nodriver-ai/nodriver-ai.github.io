@@ -9,6 +9,7 @@ subtitle: Le informazioni sull'evapotraspirazione possono essere usate dagli agr
 card-title: Utilizzando Irreo potrai monitorare i valori di ET, le precipitazioni
   e la RAW senza senza aver bisogno di nessun sensore da installare
 image: "/uploads/Schermata%202021-03-16%20alle%2012.56.30.jpg"
+thumbnail: "/uploads/Schermata%202021-03-16%20alle%2012.56.30.png"
 layout: post
 ---
 
