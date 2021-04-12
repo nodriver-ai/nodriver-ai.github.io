@@ -3,8 +3,11 @@ title: Cos'è l'evapotraspirazione e come si usa per programmare le irrigazioni?
 date: 2021-04-12 10:04:00 Z
 categories:
 - Irrigation
-subtitle: Le informazioni sull'evapotraspirazione possono essere usate dagli agricoltori per programmare più accuratamente le irrigazioni con l'obiettivo di raggiungere le massime rese e migliorare l'efficienza idrica.
-card-title: Utilizzando Irreo potrai monitorare i valori di ET, le precipitazioni e la RAW senza senza aver bisogno di nessun sensore da installare
+subtitle: Le informazioni sull'evapotraspirazione possono essere usate dagli agricoltori
+  per programmare più accuratamente le irrigazioni con l'obiettivo di raggiungere
+  le massime rese e migliorare l'efficienza idrica.
+card-title: Utilizzando Irreo potrai monitorare i valori di ET, le precipitazioni
+  e la RAW senza senza aver bisogno di nessun sensore da installare
 image: "/uploads/Schermata%202021-03-16%20alle%2012.56.30.png"
 layout: post
 ---
