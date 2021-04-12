@@ -36,6 +36,8 @@ email: info@nodriver.ai
 mailchimp-list: https://nodriver.us1.list-manage.com/subscribe/post?u=847b32553f0cca6281a7a8570&amp;id=03f062b7ec
 facebook: https://www.facebook.com/irreo.nodriver
 linkedin: https://www.linkedin.com/company/irreo
+twitter:
+  card: summary
 include:
 - _pages
 permalink: "/:title/"
