@@ -37,8 +37,8 @@
 	border-color: #4da49d;
 	color: white;
 }
-.btn-irreo:hover {
-	color: white;
+.card a.btn-irreo:hover {
+	color: white !important;
     background-color: #4da49d;	
 	border-color: #4da49d;
 }
