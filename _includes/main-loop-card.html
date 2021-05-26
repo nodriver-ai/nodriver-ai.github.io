@@ -1,3 +1,10 @@
+{% if post.image %}
+<div class="col-md-3 mb-5 pl-0 text-right d-block d-sm-none">
+	<a href="{{site.baseurl}}{{post.url}}">
+	<img class="w-100" src="{{ post.image }}" alt="{{ post.title }}">
+	</a>
+</div>
+{% endif %}
 <div class="mb-5 d-flex justify-content-between main-loop-card">
 <div class="pr-3">
 	<h2 class="mb-1 h4 font-weight-bold">
@@ -18,10 +25,10 @@
 	</small>
 </div>
 {% if post.image %}
-	<div class="col-md-3 pr-0 text-right">
-	<a href="{{site.baseurl}}{{post.url}}">
-	<img class="w-100" src="{{ post.image }}" alt="{{ post.title }}">
-	</a>
+	<div class="col-md-3 pr-0 text-right d-none d-sm-block">
+		<a href="{{site.baseurl}}{{post.url}}">
+		<img class="w-100" src="{{ post.image }}" alt="{{ post.title }}">
+		</a>
 	</div>
 {% endif %}
 </div>

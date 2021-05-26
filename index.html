@@ -9,8 +9,6 @@ pagination:
     
 {% if page.url == "/" %}
     
-    
-    
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row">
     
@@ -46,26 +44,61 @@ pagination:
 
     <div class="col-md-6">
         {% include form-home.html %}
-    </div>
 
-    <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-gray position-relative">
-        <div class="pr-0 h-100 tofront">
-            <div class="row justify-content-between">
-                <div class="col-md-6 p-0 d-block d-sm-none">
-                    <img src="{{site.baseurl}}/assets/images/mobile.png" class="img-fluid img-product">
+        <h4 class="font-weight-bold spanborder mt-5"><span>Articoli Recenti</span></h4>
+        {% for post in site.posts %}
+            {% assign idx = forloop.index %}
+            {% if idx > 1 %}
+            <div class="mb-3 d-flex align-items-center">                
+                {% if post.image %}
+                <div class="col-md-4 pl-0">
+                <a href="{{site.baseurl}}{{post.url}}">
+                 <img class="w-100" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}">
+                </a>
                 </div>
-                <div class="col-md-6 pt-5 pb-5 pr-lg-4 pl-lg-4 align-self-center">
-                    <h2 class="mb-3 text-title">Inizia ad usare irreo</h2>
-                    <p class="mb-3 lead">
-                    Oltre a scrivere articoli sull’agricoltura di precisione, abbiamo sviluppato la prima piattaforma web che consente agli agricoltori di pianificare l'irrigazione senza dover installare nessun sensore.
-                    </p>
-                    <a href="https://irreo.nodriver.ai" class="btn btn-irreo" target="_black">Scopri di più</a>
-                </div>
-                <div class="col-md-6 p-0 d-none d-sm-block" style="background: url({{site.baseurl}}/assets/images/mobile.png) no-repeat center center; -webkit-background-size: 80%; -moz-background-size: 80%; -o-background-size: 80%; background-size: 80%;">	
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in post.categories %}
+                        <a class="text-uppercase font-weight-bold smoothscroll text-tag" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ post.date | date: '%b %d, %Y' }}
+                    </small>
                 </div>
             </div>
+        
+        {% endif %}
+        {% endfor %}
+    </div>
+    
+</div>
+
+
+<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-gray position-relative">
+    <div class="pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+            <div class="col-md-6 p-0 d-block d-sm-none">
+                <img src="{{site.baseurl}}/assets/images/mobile2.png" class="img-fluid img-product">
+            </div>
+            <div class="col-md-6 pt-5 pb-5 pr-lg-4 pl-lg-4 align-self-center">
+                <h2 class="mb-3 text-title">Inizia ad usare irreo</h2>
+                <p class="mb-3 lead">
+                Oltre a scrivere articoli sull’agricoltura di precisione, abbiamo sviluppato la prima piattaforma web che consente agli agricoltori di pianificare l'irrigazione senza dover installare nessun sensore.
+                </p>
+                <a href="https://irreo.nodriver.ai" class="btn btn-irreo" target="_black">Scopri di più</a>
+            </div>
+            <div class="col-md-6 p-0 d-none d-sm-block" style="background: url({{site.baseurl}}/assets/images/mobile2.png) no-repeat center center; -webkit-background-size: 80%; -moz-background-size: 80%; -o-background-size: 80%; background-size: 80%;">	
+            </div>
         </div>
-    </div> 
+    </div>
+</div> 
 
 {% endif %} <!--endif page url is / -->
 
