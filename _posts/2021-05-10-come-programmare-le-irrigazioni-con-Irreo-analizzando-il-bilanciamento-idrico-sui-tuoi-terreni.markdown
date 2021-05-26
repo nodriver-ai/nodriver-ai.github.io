@@ -1,13 +1,18 @@
 ---
-title: Come programmare le irrigazioni con Irreo analizzando il bilanciamento idrico sui tuoi terreni?
+title: Come programmare le irrigazioni con Irreo analizzando il bilanciamento idrico
+  sui tuoi terreni?
 date: 2021-05-10 10:28:00 Z
 categories:
 - Irrigation
-subtitle: Come utilizzare Irreo per programmare in maniera ottimale le irrigazioni attraverso il bilanciamento idrico del suolo senza installare nessun sensore sui propri appezzamenti
-card-title: Scopri quando è il momento ottimale per irrigare, monitorando il bilancio idrico sui tuoi appezzamenti.
+subtitle: Come utilizzare Irreo per programmare in maniera ottimale le irrigazioni
+  attraverso il bilanciamento idrico del suolo senza installare nessun sensore sui
+  propri appezzamenti
+card-title: Scopri quando è il momento ottimale per irrigare, monitorando il bilancio
+  idrico sui tuoi appezzamenti.
 image: "/uploads/blog2.png"
 layout: post
 ---
+
 Il fabbisogno d'acqua di una coltura in crescita vegetativa deve essere soddisfatto per raggiungere massime rese e aumentare la qualità dei prodotti finali.  
 Come abbiamo visto nel precedente [articolo]({{ site.baseurl }}{% link _posts/2021-04-12-cose-levapotraspirazione-e-come-si-usa-per-programmare-le-irrigazioni.markdown %}), il fabbisogno idrico è anche chiamato [evapotraspirazione]({{ site.baseurl }}{% link _posts/2021-04-12-cose-levapotraspirazione-e-come-si-usa-per-programmare-le-irrigazioni.markdown %}) delle colture ed è solitamente rappresentato come ET<sub>c</sub>.
 Tale fabbisogno può essere fornito dall'acqua immagazzinata nel suolo, dalle precipitazioni e dall'irrigazione. L'irrigazione è necessaria quando l'ET<sub>c</sub> (la domanda d'acqua delle colture) supera la fornitura d'acqua del suolo e delle precipitazioni.
