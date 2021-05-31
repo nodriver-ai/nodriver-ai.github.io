@@ -32,6 +32,17 @@
 		padding: 20px 46px;
 	}
 }
+.btn-whatsapp {
+	background-color: #25d366;
+	color: white;
+}
+.btn-whatsapp:hover {
+	background-color: #25d366;
+	color: white;
+}
+.btn-whatsapp i {
+	font-size: 1.7em;
+}
 .btn-irreo {
 	background-color: #4da49d;
 	border-color: #4da49d;

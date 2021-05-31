@@ -13,8 +13,8 @@ image: "/uploads/blog2.png"
 layout: post
 ---
 
-Per raggiungere massime rese e aumentare la qualità dei prodotti finali, di una coltura in crescita vegetativa, deve essere soddisfatto il suo fabbisogno d'acqua.
-Come abbiamo visto nel precedente [articolo]({{ site.baseurl }}{% link _posts/2021-04-12-cose-levapotraspirazione-e-come-si-usa-per-programmare-le-irrigazioni.markdown %}), il fabbisogno idrico è anche chiamato [evapotraspirazione]({{ site.baseurl }}{% link _posts/2021-04-12-cose-levapotraspirazione-e-come-si-usa-per-programmare-le-irrigazioni.markdown %}) delle colture ed è solitamente rappresentato come ET<sub>c</sub>.
+Per raggiungere massime rese ed aumentare la qualità e la quantità dei prodotti finali, deve essere soddisfatto il fabbisogno d'acqua della coltura in crescita vegetativa.
+Come abbiamo visto nel precedente [articolo]({{ site.baseurl }}{% link _posts/2021-04-12-cose-levapotraspirazione-e-come-si-usa-per-programmare-le-irrigazioni.markdown %}), il fabbisogno idrico delle colture è anche chiamato [evapotraspirazione]({{ site.baseurl }}{% link _posts/2021-04-12-cose-levapotraspirazione-e-come-si-usa-per-programmare-le-irrigazioni.markdown %}) ed è solitamente rappresentato come ET<sub>c</sub>.
 Tale fabbisogno può essere soddisfatto dall'acqua immagazzinata nel suolo, dalle precipitazioni e dall'irrigazione. L'irrigazione è necessaria quando l'ET<sub>c</sub> (la domanda d'acqua delle colture) supera la fornitura d'acqua del suolo e delle precipitazioni.
 Poiché l'ET<sub>c</sub> varia con lo stadio di sviluppo della coltura e delle condizioni meteorologiche, diventa fondamentale decidere sia la quantità che i tempi di irrigazione ottimali.
 
@@ -35,11 +35,11 @@ dove D<sub>c</sub> è il deficit idrico del suolo (fabbisogno irriguo netto) nel
 Utilizzando [Irreo](https://irreo.nodriver.ai) potrai **monitorare giornalmente i valori di deficit idrico** sul tuo appezzamento, senza costosi sensori e centraline meteo da installare e manutenere. Infatti, analizzando dati satellitari multispettrali, termici e meteorologici, siamo in grado di stimare le precipitazioni e l'ET<sub>c</sub> giornaliera ed, attraverso diversi modelli idrologici, il deflusso superficiale e il drenaggio dell'acqua sul particolare terreno.
 
 ### Come scegliere la propria startegie di irrigazione con Irreo
-Scegliere la corretta strategia di irrigazione, significa comprendere quando è il momento ottimale per irrigare con l'obiettivo di evitare che le colture soffrino di stress idrico.
+Scegliere la corretta strategia di irrigazione, significa comprendere quando è il momento ottimale per irrigare con l'obiettivo di evitare che le colture soffrano di stress idrico.
 Per capire ciò bisogna considerare che solo una percentuale della TAW può essere esaurita prima che la coltura inizi a sperimentare stress idrico. Pertanto, deve essere scelta una **soglia di intervento**, ovvero la quantità massima di deficit idrico consentito. Tale soglia può essere espressa anche come una percentuale della TAW.
 
 Considerando la composizione del terreno, il tipo di coltura e lo stato fenologico, [Irreo](https://irreo.nodriver.ai) stima la **soglia di intervento ottimale**, chiamata RAW, ovvero la percentuale di acqua disponibile nel suolo che può essere esaurita tra due
-interventi irrigui successivi prima che la coltura soffri di stress idrico.
+interventi irrigui successivi prima che la coltura soffra di stress idrico.
 
 <p align="center">
 <img src="/uploads/diapositiva3.gif">
