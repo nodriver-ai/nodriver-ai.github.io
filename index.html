@@ -52,9 +52,9 @@ pagination:
             <div class="mb-3 d-flex align-items-center">                
                 {% if post.image %}
                 <div class="col-md-4 pl-0">
-                <a href="{{site.baseurl}}{{post.url}}">
-                 <img class="w-100" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}">
-                </a>
+                    <a href="{{site.baseurl}}{{post.url}}">
+                    <img class="w-100" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}">
+                    </a>
                 </div>
                 {% endif %}                
                 <div>

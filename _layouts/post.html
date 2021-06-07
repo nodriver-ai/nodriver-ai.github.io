@@ -39,7 +39,7 @@ layout: default
         
         
         <!-- Share -->
-		<div class="col-lg-3 pr-4 mb-4 col-md-12">
+		<div class="col-lg-3 pr-4 mb-4 col-md-12 d-none d-sm-block">
 			<div class="sticky-top sticky-top-offset text-center">
 				<div class="text-muted">
 					Condividi l'articolo
@@ -119,9 +119,17 @@ layout: default
 	</div>
 </div>
 
+<div class="d-flex justify-content-center fixed-bottom p-2 d-none d-sm-block d-md-none" style="background-color: #f3f4f7 !important;">
+	<a href="https://irreo.nodriver.ai" class="btn btn-lg" style="
+    background-color: #1cc88a;
+    color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+    font-size: 1rem;"> <i class="fas fa-align-justify mr-2"></i> Scopri i nostri servizi <i class="fas fa-angle-right"></i></a>
+</div>
 
 <!-- Aletbar Prev/Next -->
-{% if paginator.total_pages > 1 %}
+<!-- {% if paginator.total_pages > 1 %}
 <div class="alertbar">
     <div class="container">
 		{{paginator}}
@@ -139,4 +147,4 @@ layout: default
         </div>
     </div>
 </div>
-{% endif %}
+{% endif %} -->
